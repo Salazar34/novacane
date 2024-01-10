@@ -9,7 +9,7 @@ body {
 }
 
 #menu > h1 {
-  @apply text-xl transition-all ease-in-out delay-75 opacity-80;
+  @apply text-xl transition-all ease-in-out delay-75 opacity-40;
 }
 
 #menu > h1:hover {
