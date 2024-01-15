@@ -15,3 +15,15 @@ body {
 #menu > h1:hover {
   @apply cursor-pointer opacity-100;
 }
+
+.selected {
+  @apply opacity-100 !important;
+}
+
+.feature {
+  @apply max-w-[500px] text-center;
+}
+
+.feature img {
+  @apply m-auto mb-5;
+}

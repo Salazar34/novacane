@@ -34,25 +34,7 @@ function changeText(header: string, paragraph: string) {
   }
 }
 
-function showHideText(
-  firstSection: string,
-  secondSection: string,
-  thirdSection: string
-) {
-  if (
-    firstSection === null ||
-    firstSection === '' ||
-    firstSection === undefined
-  )
-    throw new Error('Invalid section name has been passed');
-
-  if (
-    secondSection === null ||
-    secondSection === '' ||
-    secondSection === undefined
-  )
-    throw new Error('Invalid section name has been passed');
-
+function showHideText(sections: Array[string]) {
   const firstHeader = document.getElementById(`${firstSection}-header`);
   const secondHeader = document.getElementById(`${secondSection}-header`);
 
