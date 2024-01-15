@@ -21,7 +21,11 @@ body {
 }
 
 .feature {
-  @apply max-w-[500px] text-center;
+  @apply max-w-[900px] m-auto mt-10;
+}
+
+.wrapper {
+  @apply flex items-center justify-center gap-20;
 }
 
 .feature img {
