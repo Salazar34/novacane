@@ -6,10 +6,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 #menu > h1 {
-  @apply text-xl transition-all ease-in-out delay-75 opacity-40;
+  @apply xl:text-xl text-lg transition-all ease-in-out delay-75 opacity-40;
 }
 
 #menu > h1:hover {
@@ -21,11 +22,11 @@ body {
 }
 
 .feature {
-  @apply max-w-[900px] m-auto mt-10;
+  @apply max-w-[900px] m-auto xl:mt-10 mt-20 px-3;
 }
 
 .wrapper {
-  @apply flex items-center justify-center gap-20;
+  @apply xl:flex xl:items-center xl:justify-center xl:gap-20;
 }
 
 .feature img {
